@@ -1,0 +1,15 @@
+# Visual Studio ve VS Code klasörleri
+.vs/
+.vscode/
+
+# Python sanal ortamý (Bunu yüklemeyiz, herkes kendi kurar)
+venv/
+env/
+
+# Python derleme dosyalarý (Gereksiz kalabalýk)
+__pycache__/
+*.pyc
+
+# Veritabaný (Opsiyonel: Genelde yüklenmez ama local çalýþýyorsun diye yükleyebilirsin.
+# Ama doðrusu bunu da yoksaymaktýr, þimdilik bu satýrý eklemesen de olur ama tavsiyem ekle)
+# db.sqlite3
